@@ -8,7 +8,7 @@
 <link rel="manifest" href="paex.webmanifest">
 <link rel="icon" href="paex-icon-192.png">
 <link rel="apple-touch-icon" href="paex-icon-192.png">
-<title>Controle de gastos (PAEX I)</title>
+<title>Controle de gastos</title>
 <style>
 html{color-scheme:light;background:#f5f3ee}
 body{margin:0}
@@ -356,7 +356,7 @@ h1.h-month{font-weight:700;letter-spacing:-.02em;font-size:clamp(28px,6vw,42px)}
     </div>
     <div id="tab-lanc" class="right" role="tabpanel" hidden>
   <aside class="panel">
-    <h1>Controle de gastos (PAEX I)</h1>
+    <h1>Controle de gastos</h1>
     <button class="btn novo" id="novo" type="button" aria-expanded="false" aria-controls="fov" aria-haspopup="dialog">Lançar</button>
     <p class="status okmsg" id="okmsg" role="status" hidden>Lançamento adicionado.</p>
     <form id="f" novalidate>
@@ -999,7 +999,7 @@ store={
   del:async id=>{const a=load().filter(x=>x.id!==id);save(a);setItems(a)}
 };
 setItems(load());
-const VERSAO='PAEX I 2026-11-07.3';
+const VERSAO='2026-11-09.1';
 document.documentElement.setAttribute('data-versao',VERSAO);
 $('bkinfo').innerHTML='Os dados são salvos no aparelho.<br>Versão: '+VERSAO;
 
