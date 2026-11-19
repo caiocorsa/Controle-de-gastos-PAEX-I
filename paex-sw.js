@@ -1,4 +1,4 @@
-const V = 'paex-v4';
+const V = 'paex-v5';
 const ARQUIVOS = ['paex.html', 'paex.webmanifest', 'paex-icon-192.png', 'paex-icon-512.png'];
 
 self.addEventListener('install', e => {
